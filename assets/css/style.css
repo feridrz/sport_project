@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: var(--font-size-base);
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header {
+  background-color: var(--color-aliceblue-100);
+  border-bottom: 1px solid #d8dce1;
+}
+
+.custom-class {
+  border-radius: var(--br-sm);
+}
+
+.btn {
+  outline: none;
+  border: none;
+  background-color: #00a3ff;
+  width: 160px;
+  height: 48px;
+  color: #fff;
+}
+
+
+/* section-1 */
+
+.section-1 .nav-link {
+  color: #32313e;
+}
+
+.agency {
+  margin-top: 48px;
+}
+
+.agency__title {
+  font-weight: 400;
+  font-size: 14px;
+  color: #666a7b;
+  margin-bottom: 26px;
+}
+
+.agency__left {
+  position: relative;
+}
+
+.agency__block {
+  padding: 56px 26px 91px 38px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -3px 8px 16px rgba(119, 131, 136, 0.06);
+  backdrop-filter: blur(29px);
+  border-radius: var(--br-3xl);
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+
+  z-index: 2;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 600px;
+  height:400px;
+}
+.agency__block-isolation {
+  display: flex;
+  justify-self: space-between;
+}
+
+.agency-btn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs) var(--padding-3xs);
+  background-color: #FFE500;
+  border-radius: var(--br-7xs);
+  justify-content: flex-start;
+  z-index: 3;
+}
+.agency-btn:hover {
+  transition: 0.5s;
+  background-color: #e7d430;
+}
+
+.agency__text h2 {
+  margin: 36px 0 20px;
+  font-weight: 600;
+  font-size: 29px;
+  color: #111827;
+}
+.agency__about-a {
+  display: inline-flex;
+  width: 111px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  background-color: #01a8ff;
+  border-radius: 12px;
+  box-shadow: 0px 8px 18px #00a3ff54;
+  color: #fff;
+}
+.agency__about-a:hover {
+  transition: 0.5s;
+  background-color: #089ce9;
+}
+
+
+/*education*/
+.education {
+  margin-top: 80px;
+}
+.education__title  {
+  margin-bottom: 30px;
+}
+
+.education-block {
+  display:flex;
+  flex-direction: column;
+  padding: 20px 0 0 20px;
+  background-color: #00A3FF;
+}
+
